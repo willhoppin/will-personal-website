@@ -4,11 +4,26 @@
 }
 
 .left-bar {
-    width: 40px;
-    padding-top: 20px;
+    width: 45px;
+    padding-top: 25px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .w-logo {
-    margin: 15px;
     width: 100%;
+    padding-bottom: 40px;
+}
+
+.social-icon {
+    width: 80%;
+    padding: 15px 0;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 50%;
+    }
 }
