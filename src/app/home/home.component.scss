@@ -37,13 +37,15 @@
 }
 
 .section-one {
-    padding: 120px 0 100px 50px;
+    padding: 120px 0 0 50px;
     background: linear-gradient(
         to left,
         rgba(17, 18, 21, 0),
         rgba(17, 18, 21, 1)
     ),
     url('/assets/tranquility.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -55,7 +57,8 @@
 .main-title {
     font-family: Benguiat;
     font-size: 75px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+    line-height: 80px;
 }
 
 .main-description {
@@ -76,7 +79,7 @@
     width: 100px;
     color: rgb(17, 18, 21);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     align-items: center;
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -88,7 +91,7 @@
 
 .about-wrapper {
     margin-left: 20px;
-    height: 30px;
+    height: 27px;
 }
 
 .about-button {
@@ -110,10 +113,10 @@
 }
 
 .about-text {
-    font-weight: bold;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 20px;
     position: absolute;
-    padding-left: 40px;
+    padding-left: 42px;
     padding-top: 10px;
 }
 
@@ -124,4 +127,15 @@
 	border-left: 18px solid rgb(17, 18, 21);
 	border-bottom: 10px solid transparent;
     margin-right: 15px;
+}
+
+.trending-text {
+    padding-top: 80px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.features-wrapper {
+    display: flex;
 }
