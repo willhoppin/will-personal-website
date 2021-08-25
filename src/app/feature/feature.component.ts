@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeatureComponent implements OnInit {
 
+  image = 'assets/features/films.png';
+
   constructor() { }
 
   ngOnInit(): void {
