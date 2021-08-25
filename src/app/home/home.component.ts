@@ -22,10 +22,10 @@ export class HomeComponent implements OnInit {
       image: '/assets/features/pi-code.png'
     },
     {
-      image: '/assets/features/code.png'
+      image: '/assets/features/willflix-code.png'
     },
     {
-      image: '/assets/features/films.png'
+      image: '/assets/features/catan-code.png'
     }
   ]
 
