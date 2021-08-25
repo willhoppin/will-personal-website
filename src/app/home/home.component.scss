@@ -1,12 +1,11 @@
 .parent {
-    background: #111215;
+    background: rgb(17, 18, 21);
     display: flex;
 }
 
 .left-bar {
     width: 45px;
-    padding-top: 25px;
-    padding-left: 20px;
+    padding: 35px 25px 0 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,16 +13,113 @@
 
 .w-logo {
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 75px;
 }
 
 .social-icon {
-    width: 80%;
-    padding: 15px 0;
+    width: 75%;
+    margin: 15px 0;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 
     &:hover {
         opacity: 50%;
     }
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.main-right {
+    width: 100%;
+}
+
+.section-one {
+    padding: 120px 0 100px 50px;
+    background: linear-gradient(
+        to left,
+        rgba(17, 18, 21, 0),
+        rgba(17, 18, 21, 1)
+    ),
+    url('/assets/tranquility.jpg');
+    color: white;
+}
+
+.main-text-wrap {
+    width: 75%;
+    max-width: 400px;
+}
+
+.main-title {
+    font-family: Benguiat;
+    font-size: 75px;
+    padding-bottom: 15px;
+}
+
+.main-description {
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    margin-top: 25px;
+}
+
+.intro-button {
+    display: flex;
+    padding: 10px 12px 10px 30px;
+    background: white;
+    border-radius: 6px;
+    width: 100px;
+    color: rgb(17, 18, 21);
+    font-weight: bold;
+    font-size: 22px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.about-wrapper {
+    margin-left: 20px;
+    height: 30px;
+}
+
+.about-button {
+    height: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    background: white;
+    opacity: 0.2;
+    border-radius: 6px;
+    width: 100px;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.3;
+    }
+}
+
+.about-text {
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    z-index: 2;
+}
+
+.play {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 18px solid rgb(17, 18, 21);
+	border-bottom: 10px solid transparent;
+    margin-right: 15px;
 }
