@@ -9,13 +9,13 @@
 }
 
 .section-one {
-    padding: 120px 0 175px 50px;
+    padding: 120px 0 175px 65px;
     background: linear-gradient(
         to left,
         rgba(17, 18, 21, 0),
         rgba(17, 18, 21, 1)
     ),
-    url('/assets/cover.jpg');
+    url('/assets/covers/main-cover.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -102,7 +102,7 @@
 }
 
 .section-two {
-    padding-left: 50px;
+    padding-left: 65px;
     margin-top: -160px;
 }
 

@@ -30,16 +30,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="episode-title">Episode 1: Middlebury Entrepreneurs Class</div>
+                <div class="episode-title">Episode 1: Pilot</div>
                 <div class="episode-description">
-                    The "Cheese App," originally titled "Stitch," is an attempt to solve the group photo dilemma.
+                    It's difficult to take a group photo where no one looks bad, and almost 
+                    impossible to take one where everyone looks their best. The "Cheese App"
+                    (previously titled "Stitch") fixes this by letting users choose their favorite
+                    take for each individual, and "stitching" them together in one optimal frame.
                 </div>
-                <div class="play-button">
-                    <div class="play"></div>
-                    Play
-                </div>
+                <a class="link" href="https://www.google.com" target="_blank">
+                    <div class="play-button">
+                        <div class="play"></div>
+                        Play
+                    </div>
+                </a>
             </div>
         </div>
         <div class="bottom-gradient"></div>
+        <div class="section-two">
+            <div class="features-text">More Like This</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of related">
+                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
