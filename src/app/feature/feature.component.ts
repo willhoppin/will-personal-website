@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-feature',
@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature.component.scss']
 })
 export class FeatureComponent implements OnInit {
+  @Input() image: string;
 
-  image = 'assets/features/films.png';
-
-  constructor() { }
+  constructor() {
+    this.image = '';
+  }
 
   ngOnInit(): void {
   }

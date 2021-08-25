@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     position: sticky;
-    top: 35px;
+    top: 25px;
     align-self: flex-start;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .section-one {
-    padding: 120px 0 0 50px;
+    padding: 120px 0 175px 50px;
     background: linear-gradient(
         to left,
         rgba(17, 18, 21, 0),
@@ -54,7 +54,7 @@
 
 .main-text-wrap {
     width: 75%;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .main-title {
@@ -132,6 +132,11 @@
     margin-right: 15px;
 }
 
+.section-two {
+    padding-left: 50px;
+    margin-top: -160px;
+}
+
 .trending-text {
     padding-top: 80px;
     color: white;
@@ -141,4 +146,29 @@
 
 .features-wrapper {
     display: flex;
+}
+
+.section-x {
+    padding-left: 50px;
+    margin-top: -32px;
+}
+
+.bottom-gradient {
+    height: 100px;
+    width: 100%;
+
+    background: linear-gradient(
+        to top,
+        rgba(17, 18, 21, 1),
+        rgba(17, 18, 21, 0)
+    );
+    margin-top: -100px;
+
+    /*
+    background: linear-gradient(
+        to top,
+        rgba(17, 18, 21, 0),
+        rgba(17, 18, 21, 1)
+    )
+    */
 }

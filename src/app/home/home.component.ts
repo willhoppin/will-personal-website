@@ -8,6 +8,27 @@ import { FeatureComponent } from '../feature/feature.component';
 })
 export class HomeComponent implements OnInit {
 
+  coding = [
+    {
+      image: '/assets/features/stitch-code.png'
+    },
+    {
+      image: '/assets/features/mb-code.png'
+    },
+    {
+      image: '/assets/features/mb-com-code.png'
+    },
+    {
+      image: '/assets/features/pi-code.png'
+    },
+    {
+      image: '/assets/features/code.png'
+    },
+    {
+      image: '/assets/features/films.png'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
