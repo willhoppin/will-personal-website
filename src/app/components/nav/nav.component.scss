@@ -15,15 +15,17 @@
 
     @media (max-width: 510px) {
         flex-direction: row;
-        width: 87%;
+        width: 90%;
         flex-wrap: wrap;
         justify-content: center;
+        padding-left: 25px;
     }
 }
 
 .w-logo {
     width: 45px;
     padding-bottom: 75px;
+    height: 100%;
 
     @media (max-width: 510px) {
         padding-bottom: 0;
@@ -39,6 +41,7 @@
     margin: 15px 0;
     transition: 0.2s ease-in-out;
     cursor: pointer;
+    height: 100%;
 
     &:hover {
         opacity: 50%;
