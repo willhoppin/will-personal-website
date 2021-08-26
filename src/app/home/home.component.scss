@@ -8,12 +8,21 @@
     }
 }
 
+.nav {
+    position: fixed;
+    top: 10px;
+
+    @media (max-width: 510px) {
+        position: relative;
+    }
+}
+
 .main-right {
     width: 100%;
 }
 
 .section-one {
-    padding: 120px 0 175px 65px;
+    padding: 120px 0 175px 135px;
     background: linear-gradient(
         to left,
         rgba(17, 18, 21, 0),
@@ -65,7 +74,8 @@
 
 .buttons-wrapper {
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 .play-button {
@@ -80,6 +90,8 @@
     align-items: center;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    margin-right: 20px;
+    margin-top: 15px;
 
     &:hover {
         opacity: 0.9;
@@ -87,7 +99,8 @@
 }
 
 .about-wrapper {
-    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
     height: 27px;
 }
 
@@ -127,7 +140,7 @@
 }
 
 .section-two {
-    padding-left: 65px;
+    padding-left: 135px;
     margin-top: -160px;
 
     @media (max-width: 510px) {
@@ -148,7 +161,7 @@
 }
 
 .section-x {
-    padding-left: 65px;
+    padding-left: 135px;
     margin-top: -32px;
 
     @media (max-width: 510px) {

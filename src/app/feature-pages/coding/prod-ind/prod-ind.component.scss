@@ -13,7 +13,7 @@
 }
 
 .section-one {
-    padding: 120px 0 175px 65px;
+    padding: 120px 0 175px 135px;
     background: linear-gradient(
         to left,
         rgba(17, 18, 21, 0),
@@ -186,7 +186,7 @@
 }
 
 .section-two {
-    padding-left: 65px;
+    padding-left: 135px;
     margin-top: -160px;
 
     @media (max-width: 510px) {
@@ -204,4 +204,13 @@
 .features-wrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+.nav {
+    position: fixed;
+    top: 10px;
+
+    @media (max-width: 510px) {
+        position: relative;
+    }
 }

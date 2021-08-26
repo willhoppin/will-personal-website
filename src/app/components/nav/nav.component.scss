@@ -9,9 +9,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky;
-    top: 25px;
-    align-self: flex-start;
 
     @media (max-width: 510px) {
         flex-direction: row;
@@ -26,6 +23,7 @@
     width: 45px;
     padding-bottom: 75px;
     height: 100%;
+    transition: 0.2s ease-in-out;
 
     @media (max-width: 510px) {
         padding-bottom: 0;
@@ -33,6 +31,10 @@
         padding-bottom: 0;
         margin-right: 6px;
         margin-top: 12px;
+    }
+
+    &:hover {
+        opacity: 0.8;
     }
 }
 
