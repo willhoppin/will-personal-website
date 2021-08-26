@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FeatureComponent } from '../components/feature/feature.component';
 
 @Component({
   selector: 'app-home',
