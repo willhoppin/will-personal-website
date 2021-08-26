@@ -30,7 +30,7 @@
         margin-top: -95px;
         background: linear-gradient(
         to left,
-        rgba(17, 18, 21, 0.3),
+        rgba(17, 18, 21, 0.4),
         rgba(17, 18, 21, 1)
     ),
     url('/assets/covers/cheese-cover.jpg');
@@ -190,7 +190,7 @@
     margin-top: -160px;
 
     @media (max-width: 510px) {
-        padding: 0 0 175px 30px;
+        padding: 0 0 20px 30px;
     }
 }
 
