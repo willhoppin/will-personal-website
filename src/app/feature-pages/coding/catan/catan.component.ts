@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cheese',
-  templateUrl: './cheese.component.html',
-  styleUrls: ['./cheese.component.scss']
+  selector: 'app-catan',
+  templateUrl: './catan.component.html',
+  styleUrls: ['./catan.component.scss']
 })
-export class CheeseComponent implements OnInit {
+export class CatanComponent implements OnInit {
 
   related = [
     {

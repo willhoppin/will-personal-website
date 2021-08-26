@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cheese',
-  templateUrl: './cheese.component.html',
-  styleUrls: ['./cheese.component.scss']
+  selector: 'app-magic-binder',
+  templateUrl: './magic-binder.component.html',
+  styleUrls: ['./magic-binder.component.scss']
 })
-export class CheeseComponent implements OnInit {
+export class MagicBinderComponent implements OnInit {
 
   related = [
     {
