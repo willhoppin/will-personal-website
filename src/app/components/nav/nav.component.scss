@@ -12,20 +12,40 @@
     position: sticky;
     top: 25px;
     align-self: flex-start;
+
+    @media (max-width: 510px) {
+        flex-direction: row;
+        width: 87%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .w-logo {
-    width: 100%;
+    width: 45px;
     padding-bottom: 75px;
+
+    @media (max-width: 510px) {
+        padding-bottom: 0;
+        width: 40px;
+        padding-bottom: 0;
+        margin-right: 6px;
+        margin-top: 12px;
+    }
 }
 
 .social-icon {
-    width: 75%;
+    width: 34px;
     margin: 15px 0;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 
     &:hover {
         opacity: 50%;
+    }
+
+    @media (max-width: 510px) {
+        margin: 0 6px;
+        margin-top: 12px;
     }
 }

@@ -2,6 +2,10 @@
     display: flex;
     background: rgb(17, 18, 21);
     min-height: 100vh;
+
+    @media (max-width: 510px) {
+        flex-direction: column;
+    }
 }
 
 .main-right {
@@ -20,6 +24,10 @@
     background-repeat: no-repeat;
     color: white;
     width: 100%;
+
+    @media (max-width: 510px) {
+        padding: 120px 0 175px 30px;
+    }
 }
 
 .bottom-gradient {
@@ -60,6 +68,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 80px;
+
+    @media (max-width: 510px) {
+        font-size: 50px;
+        line-height: 53px;
+    }
 }
 
 .info-bar {
@@ -160,6 +173,10 @@
 .section-two {
     padding-left: 65px;
     margin-top: -160px;
+
+    @media (max-width: 510px) {
+        padding: 120px 0 175px 30px;
+    }
 }
 
 .features-text {
@@ -171,4 +188,5 @@
 
 .features-wrapper {
     display: flex;
+    flex-wrap: wrap;
 }

@@ -115,10 +115,11 @@
 
 .features-wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section-x {
-    padding-left: 50px;
+    padding-left: 65px;
     margin-top: -32px;
 }
 
