@@ -4,7 +4,7 @@
         <div class="section-one">
             <div class="main-text-wrap">
                 <div class="main-title">Will Hoppin</div>
-                <div class="main-description">In this adorkable "rags to rags" story, a clueless junior at Middlebury College (on the dual degree track with Columbia University Engineering) does everything he can to secure jobs and internships with his B.A. in film and B.S. in computer science. Little does he know, he's going to end up in his parents' basement after graduation...</div>
+                <div class="main-description">In this "rags to rags" story, a determined junior at Middlebury College (on the dual degree track with Columbia University Engineering) does everything he can to secure jobs and internships with his B.A. in film and B.S. in computer science. Little does he know, he's going to end up in his parents' basement after graduation...</div>
             </div>
             <div class="buttons-wrapper">
                 <a class="link" href="https://vimeo.com/willhoppin" target="_blank">
@@ -23,7 +23,7 @@
         </div>
         <div class="bottom-gradient"></div>
         <div class="section-two">
-            <div class="trending-text">Coding</div>
+            <div class="trending-text">Coding Projects</div>
             <div class="features-wrapper">
                 <div *ngFor="let feature of coding">
                     <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
@@ -33,8 +33,8 @@
         <div class="section-x">
             <div class="trending-text">Films</div>
             <div class="features-wrapper">
-                <div *ngFor="let feature of coding">
-                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
+                <div *ngFor="let feature of films">
+                    <app-faux-feature [image]="feature.image" [link]="feature.link"></app-faux-feature>
                 </div>
             </div>
         </div>

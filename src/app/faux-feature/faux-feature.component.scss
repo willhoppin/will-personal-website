@@ -1,0 +1,20 @@
+.feature-wrap {
+    height: 220px;
+    width: 160px;
+    box-shadow: 0px 0px 10px rgba(17, 18, 21, 0.5);
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.w-logo {
+    width: 25px;
+    margin: 8px;
+}

@@ -13,6 +13,7 @@ import { WillflixComponent } from './feature-pages/coding/willflix/willflix.comp
 import { MagicBinderComComponent } from './feature-pages/coding/magic-binder-com/magic-binder-com.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FauxFeatureComponent } from './faux-feature/faux-feature.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     WillflixComponent,
     MagicBinderComComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    FauxFeatureComponent
   ],
   imports: [
     BrowserModule,

@@ -34,6 +34,29 @@ export class HomeComponent implements OnInit {
     }
   ]
 
+  films = [
+    {
+      image: '/assets/features/waynflete.jpg',
+      link: 'https://vimeo.com/341240445'
+    },
+    {
+      image: '/assets/features/piper.jpg',
+      link: 'https://vimeo.com/294267879'
+    },
+    {
+      image: '/assets/features/amphetateens.jpg',
+      link: 'https://vimeo.com/240400929'
+    },
+    {
+      image: '/assets/features/lonely.jpg',
+      link: 'https://vimeo.com/379926015'
+    },
+    {
+      image: '/assets/features/dance.jpg',
+      link: 'https://vimeo.com/411583775'
+    },
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
