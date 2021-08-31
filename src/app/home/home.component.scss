@@ -128,6 +128,7 @@
     position: absolute;
     padding-left: 29px;
     padding-top: 10px;
+    color: white;
 }
 
 .play {
@@ -167,6 +168,10 @@
     @media (max-width: 510px) {
         padding: 0 0 10px 30px;
     }
+}
+
+.link {
+    text-decoration: none;
 }
 
 .bottom-gradient {
