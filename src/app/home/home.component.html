@@ -38,6 +38,22 @@
                 </div>
             </div>
         </div>
+        <div class="section-x">
+            <div class="trending-text">Media & Design</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of design">
+                    <app-faux-feature [image]="feature.image" [link]="feature.link"></app-faux-feature>
+                </div>
+            </div>
+        </div>
+        <div class="section-x">
+            <div class="trending-text">Photography</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of photography">
+                    <app-faux-feature [image]="feature.image" [link]="feature.link"></app-faux-feature>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <app-footer></app-footer>

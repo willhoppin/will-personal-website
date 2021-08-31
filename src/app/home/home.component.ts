@@ -57,6 +57,20 @@ export class HomeComponent implements OnInit {
     },
   ]
 
+  design = [
+    {
+      image: '/assets/features/videoads.jpg',
+      link: 'https://app.magicbinder.com/binders/56023a36-9b33-4c71-8592-6c37a2ce9dfe'
+    }
+  ]
+
+  photography = [
+    {
+      image: '/assets/features/photosite.jpg',
+      link: 'https://willhoppin.wixsite.com/images'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
