@@ -86,6 +86,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 80px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
 
     @media (max-width: 510px) {
         font-size: 50px;
