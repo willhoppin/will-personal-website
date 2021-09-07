@@ -1,6 +1,6 @@
 # About this project
 
-This is a personal website I made while hunting for Summer 2022 internships. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+This is a personal website I made while hunting for Summer 2022 internships. Anyone is welcome to use it for their own purposes - I only ask that you site this repository as the source. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
 # Angular stuff
 
