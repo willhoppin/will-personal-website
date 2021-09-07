@@ -43,6 +43,9 @@
     ),
     url('/assets/covers/main-cover.jpg');
     }
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 
     @media (max-width: 422px) {
         margin-top: -140px !important;
