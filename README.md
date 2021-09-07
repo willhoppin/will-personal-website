@@ -1,8 +1,10 @@
-# PersonalWebsite
+# About this project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+This is a personal website I made while hunting for Summer 2022 internships. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
-## Development server
+# Angular stuff
+
+## Run a development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
