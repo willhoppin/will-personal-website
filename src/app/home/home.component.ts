@@ -36,6 +36,14 @@ export class HomeComponent implements OnInit {
 
   films = [
     {
+      image: '/assets/features/lazarus.png',
+      link: 'https://youtu.be/m3ILEWTkHVg'
+    },
+    {
+      image: '/assets/features/popstar.png',
+      link: 'https://youtu.be/RkykfpRt850'
+    },
+    {
       image: '/assets/features/waynflete.jpg',
       link: 'https://vimeo.com/341240445'
     },
