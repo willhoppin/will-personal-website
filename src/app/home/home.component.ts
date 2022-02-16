@@ -44,16 +44,16 @@ export class HomeComponent implements OnInit {
       link: 'https://youtu.be/RkykfpRt850'
     },
     {
+      image: '/assets/features/amphetateens.jpg',
+      link: 'https://vimeo.com/240400929'
+    },
+    {
       image: '/assets/features/waynflete.jpg',
       link: 'https://vimeo.com/341240445'
     },
     {
       image: '/assets/features/piper.jpg',
       link: 'https://vimeo.com/294267879'
-    },
-    {
-      image: '/assets/features/amphetateens.jpg',
-      link: 'https://vimeo.com/240400929'
     },
   ]
 
