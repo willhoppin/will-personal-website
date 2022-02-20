@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
     },
     {
       image: '/assets/features/popstar.png',
-      link: 'https://youtu.be/RkykfpRt850'
+      link: 'https://www.youtube.com/watch?v=lHSf9RJlSRM'
     },
     {
       image: '/assets/features/amphetateens.jpg',
