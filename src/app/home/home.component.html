@@ -23,18 +23,18 @@
         </div>
         <div class="bottom-gradient"></div>
         <div class="section-two">
-            <div class="trending-text">Coding Projects</div>
-            <div class="features-wrapper">
-                <div *ngFor="let feature of coding">
-                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
-                </div>
-            </div>
-        </div>
-        <div class="section-x">
             <div class="trending-text">Films</div>
             <div class="features-wrapper">
                 <div *ngFor="let feature of films">
                     <app-faux-feature [image]="feature.image" [link]="feature.link"></app-faux-feature>
+                </div>
+            </div>
+        </div>
+        <div class="section-x">
+            <div class="trending-text">Coding Projects</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of coding">
+                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
                 </div>
             </div>
         </div>
