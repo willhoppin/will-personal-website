@@ -36,6 +36,10 @@ export class HomeComponent implements OnInit {
 
   films = [
     {
+      image: '/assets/features/hml.jpeg',
+      link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing'
+    },
+    {
       image: '/assets/features/lazarus.png',
       link: 'https://youtu.be/m3ILEWTkHVg'
     },
