@@ -39,7 +39,7 @@
 }
 
 .social-icon {
-    width: 34px;
+    width: 32px;
     margin: 15px 0;
     transition: 0.2s ease-in-out;
     cursor: pointer;
@@ -52,5 +52,6 @@
     @media (max-width: 510px) {
         margin: 0 6px;
         margin-top: 12px;
+        width: 28px;
     }
 }
