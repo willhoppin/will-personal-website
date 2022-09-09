@@ -1,5 +1,9 @@
 <a [href]="link" target="_blank">
     <div class="feature-wrap" [ngStyle]="{ 'background' : 'url(' + image + ')', 'background-size' : 'cover', 'background-position' : 'center' }">
         <img class="w-logo" src="/assets/w-logo.png"/>
+        <div class="laurel-wrapper" *ngIf="awards.length > 0">
+            <img class="laurel" src="/assets/laurel.png"/>
+            <div class="laurel-number">{{awards.length}}</div>
+        </div>
     </div>
 </a>

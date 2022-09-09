@@ -37,49 +37,59 @@ export class HomeComponent implements OnInit {
   films = [
     {
       image: '/assets/features/hml.jpeg',
-      link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing'
+      link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing',
+      awards: ['Nominee: Best Student Film - Indie Short Fest 2022 by LAIFF','Official Selection - Middlebury New Filmmakers Festival']
     },
     {
       image: '/assets/features/lazarus.png',
-      link: 'https://youtu.be/m3ILEWTkHVg'
+      link: 'https://youtu.be/m3ILEWTkHVg',
+      awards: []
     },
     {
       image: '/assets/features/popstar.png',
-      link: 'https://www.youtube.com/watch?v=lHSf9RJlSRM'
+      link: 'https://www.youtube.com/watch?v=lHSf9RJlSRM',
+      awards: ['Contest Winner - WRIF Emerging Filmmakers Showcase','Official Selection - VTIFF: Made Here Film Festival','Official Selection - Trinity Film Festival']
     },
     {
       image: '/assets/features/amphetateens.png',
-      link: 'https://vimeo.com/240400929'
+      link: 'https://vimeo.com/240400929',
+      awards: []
     },
     {
       image: '/assets/features/waynflete.png',
-      link: 'https://vimeo.com/341240445'
+      link: 'https://vimeo.com/341240445',
+      awards: []
     },
     {
       image: '/assets/features/piper.png',
-      link: 'https://vimeo.com/294267879'
+      link: 'https://vimeo.com/294267879',
+      awards: []
     },
   ]
 
   design = [
     {
       image: '/assets/features/ux.jpg',
-      link: 'https://app.magicbinder.com/binders/b278c056-0bfe-4ab4-8086-6445c032cfa3'
+      link: 'https://app.magicbinder.com/binders/b278c056-0bfe-4ab4-8086-6445c032cfa3',
+      awards: []
     },
     {
       image: '/assets/features/videoads.jpg',
-      link: 'https://app.magicbinder.com/binders/56023a36-9b33-4c71-8592-6c37a2ce9dfe'
+      link: 'https://app.magicbinder.com/binders/56023a36-9b33-4c71-8592-6c37a2ce9dfe',
+      awards: []
     },
     {
       image: '/assets/features/motion.jpg',
-      link: 'https://vimeo.com/449430742'
+      link: 'https://vimeo.com/449430742',
+      awards: []
     }
   ]
 
   photography = [
     {
       image: '/assets/features/photosite.jpg',
-      link: 'https://willhoppin.wixsite.com/images'
+      link: 'https://willhoppin.wixsite.com/images',
+      awards: []
     }
   ]
 

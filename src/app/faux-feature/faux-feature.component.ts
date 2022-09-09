@@ -8,10 +8,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class FauxFeatureComponent implements OnInit {
   @Input() image: string;
   @Input() link: string;
+  @Input() awards: string[];
 
   constructor() {
     this.image = '';
     this.link = '';
+    this.awards = [];
   }
 
   ngOnInit(): void {
