@@ -50,7 +50,7 @@
             <div class="trending-text">Photography</div>
             <div class="features-wrapper">
                 <div *ngFor="let feature of photography">
-                    <app-faux-feature [image]="feature.image" [link]="feature.link"></app-faux-feature>
+                    <app-faux-feature [image]="feature.image" [link]="feature.link" [awards]="feature.awards"></app-faux-feature>
                 </div>
             </div>
         </div>

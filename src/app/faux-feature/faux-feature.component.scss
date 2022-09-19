@@ -37,4 +37,26 @@
 .laurel-wrapper {
     margin: 5px 8px 8px 75px;
     cursor: pointer;
+    height: 35px;
+
+    &:hover {
+        .awards-widget {
+            display: block !important;
+        }
+    }
+}
+
+.awards-widget {
+    background: white;
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 8px 2px 8px;
+    box-shadow: 0 0 8px 0 rgba(59, 27, 27, 0.3);
+}
+
+.awards-widget-item {
+    font-size: 12px;
+    margin-bottom: 3px;
 }

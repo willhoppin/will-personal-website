@@ -4,6 +4,11 @@
         <div class="laurel-wrapper" *ngIf="awards.length > 0">
             <img class="laurel" src="/assets/laurel.png"/>
             <div class="laurel-number">{{awards.length}}</div>
+            <div *ngIf="awards.length > 0" class="awards-widget">
+                <div *ngFor="let award of awards">
+                    <div class="awards-widget-item">⭐ {{award}}</div>
+                </div>
+            </div>
         </div>
     </div>
 </a>
