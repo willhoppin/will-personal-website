@@ -38,7 +38,10 @@ export class HomeComponent implements OnInit {
     {
       image: '/assets/features/hml.jpeg',
       link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing',
-      awards: ['Nominee: Best Student Film - Indie Short Fest by LAIFF 2022','Official Selection - Middlebury New Filmmakers Festival 2022']
+      awards: [
+        'Nominee: Best Student Film - Indie Short Fest by LAIFF 2022',
+        'Official Selection - Middlebury New Filmmakers Festival 2022'
+      ]
     },
     {
       image: '/assets/features/lazarus.png',
@@ -48,7 +51,11 @@ export class HomeComponent implements OnInit {
     {
       image: '/assets/features/popstar.png',
       link: 'https://www.youtube.com/watch?v=lHSf9RJlSRM',
-      awards: ['Contest Winner - WRIF Emerging Filmmakers Showcase 2022','Official Selection - VTIFF: Made Here Film Festival 2022','Official Selection - Trinity Film Festival 2022']
+      awards: [
+        'Official Selection - Middlebury New Filmmakers Festival 2022',
+        'Contest Winner - WRIF Emerging Filmmakers Showcase 2022',
+        'Official Selection - VTIFF: Made Here Film Festival 2022',
+        'Official Selection - Trinity Film Festival 2022']
     },
     {
       image: '/assets/features/amphetateens.png',
