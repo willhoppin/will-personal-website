@@ -36,6 +36,11 @@ export class HomeComponent implements OnInit {
 
   films = [
     {
+      image: '/assets/features/RMI.png',
+      link: 'https://hoppin.notion.site/Heart-of-the-Pacific-The-Marshallese-Legacy-8f01658939904d279b824fbd06f8ecdd',
+      awards: []
+    },
+    {
       image: '/assets/features/hml.jpeg',
       link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing',
       awards: [
