@@ -1,1 +1,56 @@
-<p>nbcu works!</p>
+<div class="parent">
+    <app-nav class="nav"></app-nav>
+    <div class="main-right">
+        <div class="section-one">
+            <div class="main-text-wrap">
+                <div class="w-series">
+                    <img class="willflix-logo" src="/assets/willflix.png"/>
+                    <div class="series">FILM</div>
+                </div>
+                <div class="series-title">NBCU Virtual Production</div>
+                <div class="info-bar">
+                    <div class="date">2022</div>
+                    <div class="episodes">4 Episodes</div>
+                    <div class="tools">
+                        <div class="tag angular">
+                            <img class="tag-icon" src="/assets/tags/angular.png"/>
+                            <div class="tag-text">Angular</div>
+                        </div>
+                        <div class="tag node">
+                            <img class="tag-icon" src="/assets/tags/node-js.png"/>
+                            <div class="tag-text">Node.js</div>
+                        </div>
+                        <div class="tag fullstack">
+                            <img class="tag-icon" src="/assets/tags/fullstack.png"/>
+                            <div class="tag-text">Full-Stack</div>
+                        </div>
+                        <div class="tag aws">
+                            <img class="tag-icon" src="/assets/tags/aws.png"/>
+                            <div class="tag-text">AWS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-title">Episode 1: Pilot</div>
+                <div class="episode-description">
+                    Built Virtual Production Control Room for live TV shows (including SNL). Used Angular and AWS to enable the scheduling of cloud provisioning for technical directors in NYC, LA, and Telemundo.
+                </div>
+                <a class="link" href="https://www.nbcunicareers.com/mediatech" target="_blank">
+                    <div class="play-button">
+                        <div class="play"></div>
+                        Play
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-gradient"></div>
+        <div class="section-two">
+            <div class="features-text">More Like This</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of related">
+                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

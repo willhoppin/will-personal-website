@@ -1,1 +1,48 @@
-<p>a24 works!</p>
+<div class="parent">
+    <app-nav class="nav"></app-nav>
+    <div class="main-right">
+        <div class="section-one">
+            <div class="main-text-wrap">
+                <div class="w-series">
+                    <img class="willflix-logo" src="/assets/willflix.png"/>
+                    <div class="series">FILM</div>
+                </div>
+                <div class="series-title">A24 Data Automation</div>
+                <div class="info-bar">
+                    <div class="date">2023</div>
+                    <div class="episodes">2 Episodes</div>
+                    <div class="tools">
+                        <div class="tag python">
+                            <img class="tag-icon" src="/assets/tags/python.png"/>
+                            <div class="tag-text">Python</div>
+                        </div>
+                        <div class="tag cv">
+                            <img class="tag-icon" src="/assets/tags/open-cv.png"/>
+                            <div class="tag-text">CV</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-title">Episode 1: Pilot</div>
+                <div class="episode-description">
+                    Built Python automations for A24 Films while interning. Optimized production, finance, and AP and AR processes, including rebuilding the production progress tracker and preparing aging reports and reconciling vendor statements.
+                </div>
+                <a class="link" href="https://a24films.com/" target="_blank">
+                    <div class="play-button">
+                        <div class="play"></div>
+                        Play
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-gradient"></div>
+        <div class="section-two">
+            <div class="features-text">More Like This</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of related">
+                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
