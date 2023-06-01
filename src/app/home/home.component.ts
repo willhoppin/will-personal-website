@@ -96,12 +96,12 @@ export class HomeComponent implements OnInit {
   design = [
     {
       image: '/assets/features/ux.jpg',
-      link: 'https://app.magicbinder.com/binders/b278c056-0bfe-4ab4-8086-6445c032cfa3',
+      link: 'https://app.bndr.app/binders/b278c056-0bfe-4ab4-8086-6445c032cfa3',
       awards: []
     },
     {
       image: '/assets/features/videoads.jpg',
-      link: 'https://app.magicbinder.com/binders/56023a36-9b33-4c71-8592-6c37a2ce9dfe',
+      link: 'https://app.bndr.app/binders/56023a36-9b33-4c71-8592-6c37a2ce9dfe',
       awards: []
     },
     {
