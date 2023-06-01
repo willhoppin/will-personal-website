@@ -15,6 +15,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FauxFeatureComponent } from './faux-feature/faux-feature.component';
 import { DarpaComponent } from './feature-pages/coding/darpa/darpa.component';
+import { A24Component } from './feature-pages/coding/a24/a24.component';
+import { NbcuComponent } from './feature-pages/coding/nbcu/nbcu.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { DarpaComponent } from './feature-pages/coding/darpa/darpa.component';
     NavComponent,
     FooterComponent,
     FauxFeatureComponent,
-    DarpaComponent
+    DarpaComponent,
+    A24Component,
+    NbcuComponent
   ],
   imports: [
     BrowserModule,
