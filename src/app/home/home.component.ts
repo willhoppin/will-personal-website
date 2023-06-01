@@ -45,7 +45,9 @@ export class HomeComponent implements OnInit {
       link: 'https://drive.google.com/file/d/1giEcbAh_84XYlSP1kVMV3y_I4E0j8gPt/view?usp=sharing',
       awards: [
         'Nominee: Best Student Film - Indie Short Fest by LAIFF 2022',
-        'Official Selection - Middlebury New Filmmakers Festival 2022'
+        'Official Selection - Middlebury New Filmmakers Festival 2022',
+        'Official Selection - Green Mountain International Film Festival 2023',
+        'Finalist - Genesis International Film Festival 2023'
       ]
     },
     {
