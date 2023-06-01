@@ -14,6 +14,7 @@ import { MagicBinderComComponent } from './feature-pages/coding/magic-binder-com
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FauxFeatureComponent } from './faux-feature/faux-feature.component';
+import { DarpaComponent } from './feature-pages/coding/darpa/darpa.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FauxFeatureComponent } from './faux-feature/faux-feature.component';
     MagicBinderComComponent,
     NavComponent,
     FooterComponent,
-    FauxFeatureComponent
+    FauxFeatureComponent,
+    DarpaComponent
   ],
   imports: [
     BrowserModule,

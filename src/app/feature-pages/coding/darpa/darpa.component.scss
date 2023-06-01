@@ -1,0 +1,218 @@
+.parent {
+    display: flex;
+    background: rgb(17, 18, 21);
+
+    @media (max-width: 510px) {
+        flex-direction: column;
+    }
+}
+
+.main-right {
+    width: 100%;
+}
+
+.section-one {
+    padding: 120px 0 175px 135px;
+    background: linear-gradient(
+        to left,
+        rgba(17, 18, 21, 0),
+        rgba(17, 18, 21, 1)
+    ),
+    url('/assets/covers/cheese-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+
+    @media (max-width: 510px) {
+        padding: 120px 0 175px 30px;
+        margin-top: -95px;
+        background: linear-gradient(
+        to left,
+        rgba(17, 18, 21, 0.4),
+        rgba(17, 18, 21, 1)
+    ),
+    url('/assets/covers/cheese-cover.jpg');
+    }
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    @media (max-width: 422px) {
+        margin-top: -140px !important;
+    }
+}
+
+.bottom-gradient {
+    height: 100px;
+    width: 100%;
+
+    background: linear-gradient(
+        to top,
+        rgba(17, 18, 21, 1),
+        rgba(17, 18, 21, 0)
+    );
+    margin-top: -100px;
+}
+
+.main-text-wrap {
+    width: 75%;
+    max-width: 550px;
+}
+
+.w-series {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 510px) {
+        margin-top: 100px;
+    }
+}
+
+.willflix-logo {
+    width: 75px;
+    margin-right: 15px;
+}
+
+.series {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.series-title {
+    font-family: Benguiat;
+    font-size: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 80px;
+
+    @media (max-width: 510px) {
+        font-size: 50px;
+        line-height: 53px;
+    }
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.date {
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(66, 66, 66);
+}
+
+.episodes {
+    margin-top: 10px;
+    margin-right: 20px;
+    display: none;
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px 10px 5px 8px;
+    border-radius: 5px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+
+    &:hover {
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        margin-bottom: 3px;
+        margin-top: 7px;
+    }
+}
+
+.tag-icon {
+    width: 18px;
+    margin-right: 7px;
+}
+
+.tag-text {
+    white-space: nowrap;
+}
+
+.episode-title {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.episode-description {
+    margin-top: 15px;
+    font-size: 19px;
+    opacity: 0.8;
+}
+
+.play-button {
+    margin-top: 30px;
+    display: flex;
+    padding: 10px 10px 10px 32px;
+    background: white;
+    border-radius: 6px;
+    width: 100px;
+    color: rgb(17, 18, 21);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.play {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 18px solid rgb(17, 18, 21);
+	border-bottom: 10px solid transparent;
+    margin-right: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section-two {
+    padding-left: 135px;
+    margin-top: -160px;
+
+    @media (max-width: 510px) {
+        padding: 0 0 20px 30px;
+    }
+}
+
+.features-text {
+    padding-top: 80px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    position: fixed;
+    top: 10px;
+
+    @media (max-width: 510px) {
+        position: relative;
+    }
+}

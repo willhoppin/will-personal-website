@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CatanComponent } from './feature-pages/coding/catan/catan.component';
+import { DarpaComponent } from './feature-pages/coding/darpa/darpa.component';
 import { CheeseComponent } from './feature-pages/coding/cheese/cheese.component';
 import { MagicBinderComComponent } from './feature-pages/coding/magic-binder-com/magic-binder-com.component';
 import { MagicBinderComponent } from './feature-pages/coding/magic-binder/magic-binder.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'cheese', component: CheeseComponent },
   { path: 'catan', component: CatanComponent },
+  { path: 'darpa', component: DarpaComponent },
   { path: 'magic-binder', component: MagicBinderComponent },
   { path: 'magic-binder-com', component: MagicBinderComComponent },
   { path: 'prod-ind', component: ProdIndComponent },

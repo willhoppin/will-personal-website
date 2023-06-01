@@ -1,0 +1,48 @@
+<div class="parent">
+    <app-nav class="nav"></app-nav>
+    <div class="main-right">
+        <div class="section-one">
+            <div class="main-text-wrap">
+                <div class="w-series">
+                    <img class="willflix-logo" src="/assets/willflix.png"/>
+                    <div class="series">FILM</div>
+                </div>
+                <div class="series-title">DARPA Research</div>
+                <div class="info-bar">
+                    <div class="date">2022-2023</div>
+                    <div class="episodes">2 Episodes</div>
+                    <div class="tools">
+                        <div class="tag csharp">
+                            <img class="tag-icon" src="/assets/tags/csharp.png"/>
+                            <div class="tag-text">C-Sharp</div>
+                        </div>
+                        <div class="tag unity">
+                            <img class="tag-icon" src="/assets/tags/unity.png"/>
+                            <div class="tag-text">Unity</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode-title">Episode 1: Pilot</div>
+                <div class="episode-description">
+                    Worked under Steven K. Feiner (Ph.D.) in the Columbia University Computer Graphics and User Interfaces Lab on classified DARPA-funded research. Used Unity and C# to program collaboration environments for the 75th Ranger Regiment (DARPA, or the Defense Advanced Research Projects Agency, is a research and development agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military).
+                </div>
+                <a class="link" href="https://app.magicbinder.com/binders/3df45e68-37dd-4be4-a8bd-af55879b8f99" target="_blank">
+                    <div class="play-button">
+                        <div class="play"></div>
+                        Play
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-gradient"></div>
+        <div class="section-two">
+            <div class="features-text">More Like This</div>
+            <div class="features-wrapper">
+                <div *ngFor="let feature of related">
+                    <app-feature [image]="feature.image" [link]="feature.link"></app-feature>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
