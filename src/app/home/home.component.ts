@@ -9,6 +9,18 @@ export class HomeComponent implements OnInit {
 
   coding = [
     {
+      image: '/assets/features/DARPA.png',
+      link: '/darpa'
+    },
+    {
+      image: '/assets/features/A24.png',
+      link: '/a24'
+    },
+    {
+      image: '/assets/features/NBCU.png',
+      link: '/nbcu'
+    },
+    {
       image: '/assets/features/stitch-code.png',
       link: '/cheese'
     },
